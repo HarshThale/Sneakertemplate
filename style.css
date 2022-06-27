@@ -1,0 +1,43 @@
+:root{
+    --primary:rgb(246, 234, 219);
+    --dark: orange;
+    --light:#fff;
+    --shadow:0 1px 5px rgb(231, 191, 73);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.nav_list_container{
+    margin:0 10rem 0 3rem;
+}
+
+.nav-list > li{
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.valign-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.photo__img{
+    height: 2rem;
+    margin: 0 0.8rem;
+}
