@@ -19,12 +19,16 @@ body{
 /* Navigation bar */
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1rem;
 }
 
+.nav-head{
+    margin-left: 10rem;
+}
+
 .nav_list_container{
-    margin:0 10rem 0 3rem;
+    margin:0 1rem 0 0;
 }
 
 .nav-list > li{
@@ -34,6 +38,7 @@ body{
 }
 
 .valign-wrapper{
+    margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
